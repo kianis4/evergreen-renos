@@ -5,7 +5,7 @@ export default function HomePage() {
     <div>
       <div className="relative w-full h-[400px]">
         <Image
-          src="/images/hero.jpg"
+          src="/images/hero-1.jpg"
           alt="Renovation work"
           layout="fill"
           objectFit="cover"
