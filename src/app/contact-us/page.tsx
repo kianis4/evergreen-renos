@@ -21,8 +21,8 @@ export default function ContactUs() {
             </p>
             <p className="text-lg mb-2">
               <strong>Email:</strong>{' '}
-              <a href="mailto:info@evergreenrenos.ca" className="text-green-600 hover:underline">
-                info@evergreenrenos.ca
+              <a href="mailto:renosevergreen@gmail.com" className="text-green-600 hover:underline">
+                renosevergreen@gmail.com
               </a>
             </p>
             <p className="text-lg">
