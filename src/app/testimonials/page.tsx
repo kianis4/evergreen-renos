@@ -3,6 +3,12 @@ import TestimonialCard from '../components/TestimonialCard';
 const testimonials = [
   { name: 'John Doe', feedback: 'Excellent service and great attention to detail!' },
   { name: 'Jane Smith', feedback: 'They transformed my kitchen beautifully. Highly recommended!' },
+  { name: 'John Doe', feedback: 'Excellent service and great attention to detail!' },
+  { name: 'Jane Smith', feedback: 'They transformed my kitchen beautifully. Highly recommended!' },
+  { name: 'John Doe', feedback: 'Excellent service and great attention to detail!' },
+  { name: 'Jane Smith', feedback: 'They transformed my kitchen beautifully. Highly recommended!' },
+  { name: 'John Doe', feedback: 'Excellent service and great attention to detail!' },
+  { name: 'Jane Smith', feedback: 'They transformed my kitchen beautifully. Highly recommended!' },
 ];
 
 export default function Testimonials() {
