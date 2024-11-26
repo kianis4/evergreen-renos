@@ -36,3 +36,23 @@ a:hover {
   color: #34d399; /* Tailwind's green-400 */
 }
 
+/* Tailwind styles for consistent spacing and layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Custom hover effect for service cards */
+.service-card:hover {
+  background-color: #f3f4f6; /* Tailwind's gray-100 */
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+/* Smooth font styling for better readability */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Arial', Helvetica, sans-serif;
+  line-height: 1.6;
+}
