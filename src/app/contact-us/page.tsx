@@ -4,7 +4,7 @@ export default function ContactUs() {
       {/* Hero Section */}
       <div className="bg-green-600 text-white py-20 text-center">
         <h1 className="text-4xl font-bold">Contact Us</h1>
-        <p className="mt-4 text-lg">We’d love to hear from you! Reach out today.</p>
+        <p className="mt-4 text-lg">Ready to transform your house into the home of your dreams? Reach out to us today and get a free quote.</p>
       </div>
 
       {/* Contact Section */}
