@@ -73,6 +73,6 @@ textarea:focus {
 
 /* Footer styles to stick to the bottom */
 footer {
-  margin-top: auto; /* Push footer to the bottom */
+  margin-top: auto; 
 }
 
