@@ -7,7 +7,7 @@ export default function HomePage() {
       {/* Overlay */}
       <div className="bg-black/50 min-h-screen flex flex-col justify-center items-center">
         {/* Hero Section */}
-        <div className="text-center text-white px-4">
+        <div className="text-center text-white px-4 py-4">
           <h1 className="text-4xl font-bold mb-4">Welcome to Evergreen Renos</h1>
           <p className="text-lg max-w-2xl mx-auto">
             Serving the GTA and surrounding areas since 1987. We specialize in providing high-quality
@@ -16,7 +16,7 @@ export default function HomePage() {
         </div>
 
         {/* Features Section */}
-        <div className="container mx-auto mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+        <div className="container mx-auto mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 px-6 py-6">
   {/* Experienced Card */}
   <div className="p-8 bg-white/90 rounded-lg shadow-lg flex flex-col items-center text-center">
     <div className="mb-4 text-5xl text-teal-500">🏆</div>
