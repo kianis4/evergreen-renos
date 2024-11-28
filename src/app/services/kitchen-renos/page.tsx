@@ -12,21 +12,20 @@ export default function KitchenRenos() {
             vision to life with customized cabinetry, countertops, and modern appliances.
           </p>
           <p className="text-xl leading-relaxed max-w-3xl mx-auto mb-10">
-            From initial design to final installation, we focus on creating a kitchen that's both
-            functional and visually stunning.
+            From initial design to final installation, we focus on creating a kitchen that&apos;s
+            both functional and visually stunning.
           </p>
-          <div>
-            <a
-              href="/contact-us"
-              className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300"
-            >
-              Design Your Dream Kitchen
-            </a>
-          </div>
+          <a
+            href="/contact-us"
+            className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300"
+          >
+            Design Your Dream Kitchen
+          </a>
         </div>
       </div>
     </div>
   );
 }
+
 
   

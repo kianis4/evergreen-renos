@@ -14,18 +14,17 @@ export default function FlooringRenos() {
           <p className="text-xl leading-relaxed max-w-3xl mx-auto mb-10">
             Our team ensures precise installation to deliver a flawless finish for every project.
           </p>
-          <div>
-            <a
-              href="/contact-us"
-              className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300"
-            >
-              Explore Flooring Options
-            </a>
-          </div>
+          <a
+            href="/contact-us"
+            className="bg-teal-500 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg hover:bg-teal-400 transition duration-300"
+          >
+            Explore Flooring Options
+          </a>
         </div>
       </div>
     </div>
   );
 }
+
 
   
