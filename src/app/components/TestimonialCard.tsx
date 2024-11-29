@@ -19,7 +19,7 @@ export default function TestimonialCard({ name, feedback, image }: TestimonialCa
         />
         <h3 className="ml-4 text-lg font-bold">{name}</h3>
       </div>
-      <p className="text-gray-700 italic">"{feedback}"</p>
+      <p className="text-gray-700 italic">&quot;{feedback}&quot;</p>
     </div>
   );
 }
