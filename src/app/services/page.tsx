@@ -58,7 +58,7 @@ export default function Services() {
         </div>
 
         {/* Services Section */}
-        <div className="container mx-auto py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="container mx-auto px-10 py-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => (
             <Link key={index} href={service.link}>
               <div className="p-6 bg-white/90 rounded-lg shadow hover:shadow-lg transition-shadow duration-300 cursor-pointer">

@@ -2,37 +2,14 @@ export default function ContactUs() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <div className="bg-green-600 text-white py-20 text-center">
+      <div className="bg-green-600 text-white py-20 px-5 text-center">
         <h1 className="text-4xl font-bold">Contact Us</h1>
         <p className="mt-4 text-lg">Ready to transform your house into the home of your dreams? Reach out to us today and get a free quote.</p>
       </div>
 
       {/* Contact Section */}
-      <div className="container mx-auto py-12 flex-1">
+      <div className="container mx-auto py-12 px-5 flex-1">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Contact Info */}
-          <div>
-            <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
-            <p className="text-lg mb-2">
-              <strong>Phone:</strong>{' '}
-              <a href="tel:+14162303900" className="text-green-600 hover:underline">
-                (416) 230-3900
-              </a>
-            </p>
-            <p className="text-lg mb-2">
-              <strong>Email:</strong>{' '}
-              <a href="mailto:renosevergreen@gmail.com" className="text-green-600 hover:underline">
-                renosevergreen@gmail.com
-              </a>
-            </p>
-            <p className="text-lg">
-              <strong>Website:</strong>{' '}
-              <a href="https://evergreenrenos.ca" className="text-green-600 hover:underline">
-                evergreenrenos.ca
-              </a>
-            </p>
-          </div>
-
           {/* Contact Form */}
           <div>
             <h2 className="text-2xl font-bold mb-4">Send Us a Message</h2>
@@ -80,6 +57,28 @@ export default function ContactUs() {
                 Send Message
               </button>
             </form>
+          </div>
+                    {/* Contact Info */}
+                    <div>
+            <h2 className="text-2xl font-bold mb-4">Get in Touch</h2>
+            <p className="text-lg mb-2">
+              <strong>Phone:</strong>{' '}
+              <a href="tel:+14162303900" className="text-green-600 hover:underline">
+                (416) 230-3900
+              </a>
+            </p>
+            <p className="text-lg mb-2">
+              <strong>Email:</strong>{' '}
+              <a href="mailto:renosevergreen@gmail.com" className="text-green-600 hover:underline">
+                renosevergreen@gmail.com
+              </a>
+            </p>
+            <p className="text-lg">
+              <strong>Website:</strong>{' '}
+              <a href="https://evergreenrenos.ca" className="text-green-600 hover:underline">
+                evergreenrenos.ca
+              </a>
+            </p>
           </div>
         </div>
       </div>
