@@ -8,7 +8,7 @@ export default function HomePage() {
       <div className="bg-black/50 min-h-screen flex flex-col justify-center items-center">
         {/* Hero Section */}
         <div className="text-center text-white px-4 py-4">
-          <h1 className="text-4xl font-bold mb-4">Welcome to Evergreen Renos</h1>
+          <h1 className="text-4xl font-bold mb-4">Evergreen Renos</h1>
           <p className="text-lg max-w-2xl mx-auto">
             Serving the GTA and surrounding areas since 1987. We specialize in providing high-quality
             renovation services to meet your unique needs.
